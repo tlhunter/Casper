@@ -219,7 +219,7 @@ h4, h5, h6 {
     color: #FF530D;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One', sans-serif;
     text-rendering: geometricPrecision;
     text-transform: uppercase;
     font-weight: normal;
@@ -761,7 +761,7 @@ body.nav-opened .nav {
 }
 
 .subscribe-button {
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -858,7 +858,7 @@ body.nav-opened .nav {
 }
 
 .menu-button {
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
