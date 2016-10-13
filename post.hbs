@@ -87,6 +87,20 @@
     </article>
 </main>
 
+<aside class="comments inner">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'thomas-hunter-ii';
+        var disqus_identifier = '{{post.id}}';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+</aside>
+
 {{!-- Links to Previous/Next posts --}}
 <aside class="read-next">
     {{#next_post}}
