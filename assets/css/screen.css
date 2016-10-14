@@ -22,6 +22,12 @@ aside.happy-fun-time a.carbon-poweredby {
     text-align: right;
 }
 
+@media (max-width: 800px) {
+  aside.happy-fun-time {
+    display: none;
+  }
+}
+
 /* ==========================================================================
    0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
